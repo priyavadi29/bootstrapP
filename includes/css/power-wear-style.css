@@ -1,0 +1,54 @@
+#image{
+	max-width:100%;
+	margin-top:120px;
+}
+h3{
+	font-family: 'Comfortaa', cursive;
+   color:#f97427;
+   text-transform: uppercase;
+}
+p{
+	font-family: 'Julius Sans One', sans-serif;
+   text-transform: uppercase;
+   color:#f97427;
+  font-size:120%;
+}
+body{
+   background: url('../../images/2.jpg') top center;
+   background-repeat: repeat-y;
+}
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+@media
